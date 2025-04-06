@@ -1,0 +1,4 @@
+scrape_configs:
+  - job_name: 'python-spark-app'
+    static_configs:
+      - targets: ['host.docker.internal:8000']  # This should work for Docker Desktop
